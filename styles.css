@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-heading{
+    text-align: center;
+    margin: 100px;
+}
+
+.projects-holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-holder > *{
+    color: green;
+    padding: 10px;
+    margin: 20px;
+}
+
+.projects-holder > *:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    border: 1px solid blue;
+    border-radius: 10px; 
+    transition: all 0.3s ease;
+}
